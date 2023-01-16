@@ -15,7 +15,7 @@ Table of contents
 04. header
 05. welcome
 06. features
-07. testimonials
+07. blogs
 08. contact
 09. footer
 10. preloader
@@ -896,7 +896,7 @@ promotion
 
 /*
 --------------------------------------------
-testimonials
+blogs
 --------------------------------------------
 */
 .right-image-decor {
@@ -910,22 +910,22 @@ testimonials
   margin-top: -200px;
 }
 
-#testimonials {
+#blogs {
   padding-top: 100px;
   position: relative;
   z-index: 9;
 }
 @media(max-width:600px){
-  #testimonials{
+  #blogs{
     margin-top: -100px;
   }
 }
 
-#testimonials .item {
+#blogs .item {
   position: relative;
 }
 
-#testimonials .item .testimonial-content {
+#blogs .item .testimonial-content {
   background: rgb(244,129,63);
   background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
   margin-left: 60px;
@@ -934,37 +934,37 @@ testimonials
   border-radius: 5px;
 }
 
-#testimonials .item .testimonial-content ul li {
+#blogs .item .testimonial-content ul li {
   display: inline-block;
   margin: 0px 1px;
 }
 
-#testimonials .item .testimonial-content ul li i {
+#blogs .item .testimonial-content ul li i {
   color: #fff;
   font-size: 13px;
 }
 
-#testimonials .item .testimonial-content h4 {
+#blogs .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
   color: #fff;
 }
 
-#testimonials .item .testimonial-content p {
+#blogs .item .testimonial-content p {
   color: #fff;
   font-style: italic;
   font-weight: 200;
   margin: 20px 0px 15px 0px;
 }
 
-#testimonials .item .testimonial-content p a {
+#blogs .item .testimonial-content p a {
   color: #fff;
   font-style: italic;
   font-weight: bold;
   text-decoration: none;
   margin: 20px 0px 15px 0px;
 }
-#testimonials .item .testimonial-content p a:hover {
+#blogs .item .testimonial-content p a:hover {
   color: rgb(85, 10, 10);
   font-style: italic;
   font-weight: bold;
@@ -972,13 +972,13 @@ testimonials
   margin: 20px 0px 15px 0px;
 }
 
-#testimonials .item .testimonial-content span {
+#blogs .item .testimonial-content span {
   color: #fff;
   font-weight: 200;
   font-size: 13px;
 }
 
-#testimonials .author img {
+#blogs .author img {
   max-width: 120px;
   margin-bottom: -60px;
 }
